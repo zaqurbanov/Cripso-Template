@@ -64,7 +64,7 @@ body {
 }
 
 
-.box-border{
+.box-border {
     border-radius: 10px;
     border: 1px solid #878787;
     cursor: pointer;
@@ -80,7 +80,7 @@ body {
     }
 }
 
-.same-brand-box{
+.same-brand-box {
 
     min-height: 85px;
     display: flex !important;
@@ -88,21 +88,24 @@ body {
     align-items: center;
     text-align: center;
 
-    h2{
-       font-size: 26px;
-       font-weight: 700;
-       line-height: 25px;
+    h2 {
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 25px;
     }
 
 }
+
 .swiper-slide {
     cursor: pointer;
 }
+
 .swiper-button-next,
-.swiper-button-prev{
+.swiper-button-prev {
     color: black !important;
 
-       }
+}
+
 .container-lg {
     max-width: 1200px;
     margin: 0 auto;
@@ -117,7 +120,8 @@ body {
     position: relative;
 
 }
-.shop-cards{
+
+.shop-cards {
     margin-top: 30px;
 }
 
@@ -192,11 +196,12 @@ body {
 .Crypto {
 
 
-  
+
 
     .coin-card {
 
         height: 140px;
+
         figure {
 
             padding: 14px 22px;
@@ -321,9 +326,9 @@ body {
                 justify-content: center;
                 background: white;
                 padding: 0 11px;
-                
 
-              
+
+
 
                 img {
 
@@ -399,50 +404,51 @@ body {
 
 .alghoritm {
 
-   .alghoritm-slide-box {
+    .alghoritm-slide-box {
         padding: 18px 14px;
         max-height: 54px;
         border-radius: 10px;
-      
+
     }
 
 }
 
 
 
-.global{
+.global {
 
-background-color: #F0F0F0;
+    background-color: #F0F0F0;
 
 }
 
-.Special{
+.Special {
     background-color: #F0F0F0;
-    .special-cards{
+
+    .special-cards {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
         column-gap: 22px;
         margin-top: 40px;
 
-        .special-card{
+        .special-card {
             background-color: white;
             border-radius: 10px;
             border: 1px solid #878787;
-           display: grid;
-           grid-template-rows: 1fr 5fr 1fr;
-           align-items: center;
+            display: grid;
+            grid-template-rows: 1fr 5fr 1fr;
+            align-items: center;
             height: 339px;
             padding: 10px 20px;
             justify-items: center;
 
 
-            .special-card-header{
+            .special-card-header {
                 font-size: 26px;
                 font-weight: 700;
-                
+
             }
 
-            .special-button{
+            .special-button {
                 border-radius: 6px;
                 border: 1px solid #AA611D;
                 width: 100%;
@@ -458,43 +464,44 @@ background-color: #F0F0F0;
     }
 }
 
-.Form{
+.Form {
     background-color: #F0F0F0;
-    .form-container{
+
+    .form-container {
 
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
 
-        .shop-heading{
-            
-        }
+        .shop-heading {}
 
-        form{
-            min-width: 700px;   
+        form {
+            min-width: 700px;
             margin-top: 40px;
-            .form-info{
+
+            .form-info {
                 color: #000;
 
-text-align: center;
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 20px;
 
 
             }
-            
-            label{
+
+            label {
                 min-height: 60px;
                 width: 100%;
                 display: flex;
                 margin-top: 20px;
 
                 background-color: white;
-                input{
+
+                input {
                     min-height: 60px;
                     height: 100%;
                     width: 100%;
@@ -502,21 +509,21 @@ line-height: 20px;
                     border: none;
                     font-weight: 700;
                     font-size: 1.1rem;
-                    color:black;
+                    color: black;
                     padding: 0 20px;
                     border-radius: 6px 0px 0px 6px;
                     border-top: 1px solid #878787;
                     border-bottom: 1px solid #878787;
                     border-left: 1px solid #878787;
 
-background: #FFF;
+                    background: #FFF;
 
-                    &::placeholder{
+                    &::placeholder {
                         color: #bebebe;
                     }
                 }
-                
-                button{
+
+                button {
                     height: 60px;
                     outline: none;
                     border: none;
@@ -533,55 +540,62 @@ background: #FFF;
     }
 }
 
-footer{
+footer {
     padding-top: 80px;
-    .footer-box{
+
+    .footer-box {
         display: flex;
         flex-direction: column;
         justify-content: center;
-     
+
         gap: 60px;
-        h3{
+
+        h3 {
             margin: 0 auto;
         }
-        .footer-top{
+
+        .footer-top {
             display: grid;
             grid-template-columns: repeat(3, 3fr);
             column-gap: 15px;
-            .footer-top-card{
+
+            .footer-top-card {
                 background-color: #d9d9d9;
                 min-height: 130px;
             }
         }
 
-        .footer-menu-box{
+        .footer-menu-box {
             display: grid;
-            grid-template-columns: repeat(4,1fr);
+            grid-template-columns: repeat(4, 1fr);
 
-            .footer-menu-card{
+            .footer-menu-card {
 
 
-                ul{
+                ul {
                     list-style: none;
                     margin-top: 10px;
-                    li{
+
+                    li {
                         margin-top: 10px;
-                        a{
+
+                        a {
                             color: #000;
                         }
                     }
                 }
-                .footer-social-box{
+
+                .footer-social-box {
                     display: flex;
                     flex-direction: column;
                     gap: 20px;
                     margin-top: 40px;
 
-                    .social-box{
+                    .social-box {
                         display: flex;
                         gap: 6px;
 
-                        .social{
+                        .social {
                             width: 28px;
                             height: 28px;
                             background-color: #d9d9d9;
@@ -595,15 +609,17 @@ footer{
             }
 
         }
-        .footer-bottom{
+
+        .footer-bottom {
 
             min-width: 900px;
-           
-            margin: 0 auto ;
+
+            margin: 0 auto;
             display: grid;
-            grid-template-columns: repeat(10,1fr);
+            grid-template-columns: repeat(10, 1fr);
             column-gap: 2px;
-            .bottom-box{
+
+            .bottom-box {
                 width: 70px;
                 height: 50px;
                 background-color: #d9d9d9;
